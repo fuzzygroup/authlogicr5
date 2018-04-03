@@ -1,0 +1,53 @@
+<h1 style="text-align: center">Sign Up Or Login</h1>
+
+<!--
+http://stackoverflow.com/questions/35222966/bootstrap-3-two-columns-in-container-with-100-width-backgrounds
+<style>
+  .row {
+  background-color: #e1e2e4;
+  background-image: url('image.jpg');
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  }
+  </style>
+-->
+<div class="row">
+<div class="container-fluid">
+    <div class="col-xs-6">
+        <%= render :partial => "login"%>
+    </div>
+
+    <div class="col-xs-6">
+        <%= render :partial => "sign_up"%>
+    </div>
+</div>
+</div>
+
+<!--
+  <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                  <%= render :partial => "login"%>
+                </div>
+                <div class="col-lg-4 col-lg-offset-4">
+                  <%= render :partial => "sign_up"%>
+                </div>
+            </div>
+         </div>
+-->
+<!--
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <h2>Login</h2>
+            <%#= render :partial => "login"%>
+            
+        </div>
+        <div class="col-md-10">
+            <h2>Sign Up</h2>
+            <%#= render :partial => "sign_up"%>
+        </div>
+    </div>
+</div>
+-->
+

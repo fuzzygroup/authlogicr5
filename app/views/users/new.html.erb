@@ -1,0 +1,12 @@
+
+<h1 style="text-align: center">Sign Up!</h1>
+<p style="font-size:20px; text-align: center;">Make your hunt for a better tech job suck less!<br/><%=PRODUCT_NAME%> is a tool for tech job seekers to take control of the job hunt process. <br/><%=PRODUCT_NAME%> is a <em>free</em> product -- on the <strong>next</strong> screen you can just start using <%=PRODUCT_NAME%>.</p>
+
+<% if SHOW_REAL_SIGNUP_FORM %>
+  <%= render :partial => "form"%>
+<% else %>
+  <%= render :partial => "form_placeholder"%>
+<% end %>
+
+
+
