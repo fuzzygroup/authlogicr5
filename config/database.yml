@@ -51,7 +51,5 @@ production:
   username: root
   #password: Ascoble32f!
   password: test1234
-  # mysql -ushouldigem -pAscoble32f! should_i_gem_production -A -hshouldigem.couvdegecke4.us-east-2.rds.amazonaws.com
-  #host: shouldigem.couvdegecke4.us-east-2.rds.amazonaws.com
   host: mariadb
   port: 3306

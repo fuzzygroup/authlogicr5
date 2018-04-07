@@ -266,9 +266,9 @@ class User < ApplicationRecord
     self.logins.last
   end
   
-  def login_count
-    self.logins.size
-  end
+  # def login_count
+  #   self.logins.size
+  # end
   
   def user_name
     return self.username

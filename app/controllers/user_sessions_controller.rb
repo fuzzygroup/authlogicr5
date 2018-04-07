@@ -30,6 +30,7 @@ class UserSessionsController < ApplicationController
       #redirect_to "/home", success: "#{@user_session.inspect}" and return
     else
       puts "got into else failure condition "
+      raise @user_session.errors.full_messages.inspect
       flash[:notice] = @user_session.errors.full_messages
       render :new
     end
