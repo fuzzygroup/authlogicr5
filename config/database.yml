@@ -44,12 +44,11 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: authlogic_freeze_production
+  database: job_hound_production
   pool: 5
   #host: localhost
   #username: shouldigem
   username: root
-  #password: Ascoble32f!
   password: test1234
   host: mariadb
   port: 3306
